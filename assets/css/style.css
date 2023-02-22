@@ -25,7 +25,7 @@ header{
     vertical-align: middle;
 }
 
-header ul > li{
+ul li{
     list-style-type: none;
     display: inline-block;
 }
@@ -71,6 +71,10 @@ header a{
     margin-top: 10px;
 }
 
+.heart:hover{
+    color: red;
+}
+
 .img-card .scount{
     position: absolute;
     bottom: 30px;
@@ -113,22 +117,78 @@ header a{
     background-image: url('../img/1.webp');
 }
 
+.img-card.background-1:hover{
+    background-image: url('../img/1b.webp');
+}
+
 .img-card.background-2{
     background-image: url('../img/2.webp');
+}
+
+.img-card.background-2:hover{
+    background-image: url('../img/2b.webp');
 }
 
 .img-card.background-3{
     background-image: url('../img/3.webp');
 }
 
+.img-card.background-3:hover{
+    background-image: url('../img/3b.webp');
+}
+
 .img-card.background-4{
     background-image: url('../img/4.webp');
+}
+
+.img-card.background-4:hover{
+    background-image: url('../img/4b.webp');
 }
 
 .img-card.background-5{
     background-image: url('../img/5.webp');
 }
 
+.img-card.background-5:hover{
+    background-image: url('../img/5b.webp');
+}
+
 .img-card.background-6{
     background-image: url('../img/6.webp');
+}
+
+.img-card.background-6:hover{
+    background-image: url('../img/6b.webp');
+}
+
+/* Footer */
+
+footer{
+  background-color: #1a1a1a;
+  padding: 20px 0;  
+}
+
+.container-footer{
+    display: flex;
+    width: 70%; 
+    justify-content: space-between;
+    margin: auto;
+}
+
+footer h5, h6, a, .fa-brands{
+    color: white;
+}
+
+footer a{
+    font-size: 11px;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+footer h5, h6{
+    margin-bottom: 8px;
+}
+
+footer .fa-brands{
+    padding: 0 2px;
 }
