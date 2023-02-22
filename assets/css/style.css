@@ -35,3 +35,100 @@ header a{
     color: white;
     text-decoration: none;
 }
+
+/* Main */
+
+.container{
+    width: 70%; 
+    margin: auto;
+    margin-top: 50px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.box .card{
+    margin: 0 10px;
+    width: calc(100% / 3);
+}
+
+.box .card .img-card{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    position: relative;
+}
+
+.img-card .heart{
+    position: absolute;
+    right: 0;
+    background-color: white;
+    padding: 4px 10px;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.img-card .scount{
+    position: absolute;
+    bottom: 30px;
+    background-color: red;
+}
+
+.img-card .sostenibilità{
+    position: absolute;
+    bottom: 30px;
+    left: 43px;
+    background-color: green;
+}
+
+.img-card .sostenibilità-left{
+    position: absolute;
+    bottom: 30px;
+    background-color: green;
+}
+
+.white-font{
+    color: white;
+    padding: 4px 8px;
+    font-size: 11px;
+}
+
+.small-font{
+    font-size: 12px;
+}
+
+.card .price-1{
+    color: red;
+    font-weight: bold;
+}
+
+.card .price-2{
+    text-decoration: line-through;
+}
+
+.img-card.background-1{
+    background-image: url('../img/1.webp');
+}
+
+.img-card.background-2{
+    background-image: url('../img/2.webp');
+}
+
+.img-card.background-3{
+    background-image: url('../img/3.webp');
+}
+
+.img-card.background-4{
+    background-image: url('../img/4.webp');
+}
+
+.img-card.background-5{
+    background-image: url('../img/5.webp');
+}
+
+.img-card.background-6{
+    background-image: url('../img/6.webp');
+}
